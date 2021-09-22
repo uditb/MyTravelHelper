@@ -73,3 +73,36 @@ class SearchTrainInteractorMock:PresenterToInteractorProtocol {
 
     }
 }
+
+//
+class searchTrainInteractorTests: XCTestCase {
+    
+    var searchTrainInteractor: SearchTrainInteractor!
+    var presenter: SearchTrainPresenter!
+    var view = SearchTrainMockView()
+
+    override func setUp() {
+        searchTrainInteractor = SearchTrainInteractor()
+        presenter = SearchTrainPresenter()
+        
+        searchTrainInteractor.presenter = presenter
+        
+        presenter.view = view
+        presenter.interactor = searchTrainInteractor
+    }
+    
+    func fetchallStations() {
+        presenter.fetchallStations()
+        XCTAssertTrue(view.isSaveFetchedStatinsCalled)
+    }
+    
+    func fetchTrainsFromSource(sourceCode: String, destinationCode: String) {
+        
+    }
+    
+    private func proceesTrainListforDestinationCheck(trainsList: [StationTrain]) {
+        
+    }
+
+    
+}
