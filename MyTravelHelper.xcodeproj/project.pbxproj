@@ -26,6 +26,8 @@
 		753F084E223618AD00175107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 753F084D223618AD00175107 /* Assets.xcassets */; };
 		753F0851223618AD00175107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 753F084F223618AD00175107 /* LaunchScreen.storyboard */; };
 		753F087122361A6500175107 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753F087022361A6500175107 /* AppConstants.swift */; };
+		81CBD4A426FB47FF00CFBA6E /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBD4A126FB47FF00CFBA6E /* ServiceManager.swift */; };
+		81CBD4A526FB47FF00CFBA6E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81CBD4A326FB47FF00CFBA6E /* Constants.swift */; };
 		8CBBCE0D40B8FE266A1617DE /* Pods_MyTravelHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF635B96516F13D67ADE01AF /* Pods_MyTravelHelper.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +67,8 @@
 		753F0857223618AE00175107 /* MyTravelHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTravelHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		753F085D223618AE00175107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		753F087022361A6500175107 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		81CBD4A126FB47FF00CFBA6E /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		81CBD4A326FB47FF00CFBA6E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		849A0A29A57A433EA5AB15FB /* Pods-MyTravelHelperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTravelHelperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTravelHelperTests/Pods-MyTravelHelperTests.release.xcconfig"; sourceTree = "<group>"; };
 		AF635B96516F13D67ADE01AF /* Pods_MyTravelHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTravelHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD4A9E0F8C97F8AA92AAA053 /* Pods_MyTravelHelperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTravelHelperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +146,8 @@
 		753F0845223618AB00175107 /* MyTravelHelper */ = {
 			isa = PBXGroup;
 			children = (
+				81CBD4A226FB47FF00CFBA6E /* Constants */,
+				81CBD4A026FB47FF00CFBA6E /* Network */,
 				753C8FB822367E64005FF13B /* App-Ui */,
 				753F086F22361A5100175107 /* App-utils */,
 				753F08672236190700175107 /* Modules */,
@@ -242,6 +248,22 @@
 				753C8FB622367DF4005FF13B /* ProgressIndicator.swift */,
 			);
 			path = "App-utils";
+			sourceTree = "<group>";
+		};
+		81CBD4A026FB47FF00CFBA6E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				81CBD4A126FB47FF00CFBA6E /* ServiceManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		81CBD4A226FB47FF00CFBA6E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				81CBD4A326FB47FF00CFBA6E /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -420,6 +442,7 @@
 				753C8FB722367DF4005FF13B /* ProgressIndicator.swift in Sources */,
 				753C8FB522367D1C005FF13B /* AppUtils.swift in Sources */,
 				753C8FA522361EC9005FF13B /* StationInfo.swift in Sources */,
+				81CBD4A526FB47FF00CFBA6E /* Constants.swift in Sources */,
 				753C8FBC223731E3005FF13B /* Reachability.swift in Sources */,
 				753C8FA622361EC9005FF13B /* Stations.swift in Sources */,
 				753C8FAC223623C2005FF13B /* SearchTrainInteractor.swift in Sources */,
@@ -427,6 +450,7 @@
 				753F0847223618AB00175107 /* AppDelegate.swift in Sources */,
 				753C8FA422361EC9005FF13B /* TrainMovements.swift in Sources */,
 				753C8FB022365E9A005FF13B /* SearchTrainRouter.swift in Sources */,
+				81CBD4A426FB47FF00CFBA6E /* ServiceManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

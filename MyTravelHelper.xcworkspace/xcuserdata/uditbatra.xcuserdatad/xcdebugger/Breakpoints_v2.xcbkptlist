@@ -46,8 +46,8 @@
             filePath = "MyTravelHelper/Modules/SearchTrains/Interactor/SearchTrainInteractor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "fetchTrainsFromSource(sourceCode:destinationCode:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,8 +62,8 @@
             filePath = "MyTravelHelper/Modules/SearchTrains/Interactor/SearchTrainInteractor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "fetchTrainsFromSource(sourceCode:destinationCode:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -78,8 +78,8 @@
             filePath = "MyTravelHelper/Modules/SearchTrains/Interactor/SearchTrainInteractor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "63"
-            endingLineNumber = "63"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "proceesTrainListforDestinationCheck(trainsList:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -94,8 +94,8 @@
             filePath = "MyTravelHelper/Modules/SearchTrains/Interactor/SearchTrainInteractor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "76"
-            endingLineNumber = "76"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
             landmarkName = "proceesTrainListforDestinationCheck(trainsList:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -110,8 +110,8 @@
             filePath = "MyTravelHelper/Modules/SearchTrains/Interactor/SearchTrainInteractor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
             landmarkName = "proceesTrainListforDestinationCheck(trainsList:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -126,8 +126,8 @@
             filePath = "MyTravelHelper/Modules/SearchTrains/Interactor/SearchTrainInteractor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
             landmarkName = "proceesTrainListforDestinationCheck(trainsList:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -158,8 +158,8 @@
             filePath = "MyTravelHelper/Modules/SearchTrains/Interactor/SearchTrainInteractor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
             landmarkName = "proceesTrainListforDestinationCheck(trainsList:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -174,8 +174,8 @@
             filePath = "MyTravelHelper/Modules/SearchTrains/Interactor/SearchTrainInteractor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
             landmarkName = "proceesTrainListforDestinationCheck(trainsList:)"
             landmarkType = "7">
          </BreakpointContent>
