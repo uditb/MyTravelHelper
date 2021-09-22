@@ -8,7 +8,7 @@
 
 import Foundation
 import XMLParsing
-import Alamofire
+//import Alamofire
 
 class SearchTrainInteractor: ServiceManager, PresenterToInteractorProtocol {
     var _sourceStationCode = String()
